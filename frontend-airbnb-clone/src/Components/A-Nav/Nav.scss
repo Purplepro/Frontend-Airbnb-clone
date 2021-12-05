@@ -3,41 +3,72 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    height: 2rem;
-    width: 4.5rem;
+    height: 1.8rem;
+    width: 3.5rem;
     border: 1px solid rgb(197, 197, 197);
     padding: 5px 5px 5px 12px;
-    border-radius: 2rem;
+    border-radius: 1.8rem;
+    padding-right: -30%;
+    transition: all 0.2s ease;
     // overflow: hidden;
+}
+
+#menu-button-div:hover {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.10);
 }
 
 #profile-icon {
     position: relative;
-    right: 17px;
-    top: 6px;
+    right: 23px;
+    top: 5px;
     margin: auto;
 }
 
 #hamburger-menu {
-    font-size: 22px;
+    font-size: 20px;
     position: relative;
-    right: inherit;
+    right: 4px;
     top: 1px;
 }
 
 #globe-icon {
     font-size: 1.3em;
+    transition: 0.2s ease;
 }
+
+#globe-container:hover {
+    background-color: rgba(110, 110, 110, 0.1);
+    border-radius: 200%;
+    padding: 15px;
+    margin: auto;
+}
+
 
 #become-host-link a {
  text-decoration: none;
  color: black;
  font-weight: 450;
+ font-size: 0.8rem;
+}
+
+#become-host-link {
+    behavior: smooth;
+}
+
+#become-host-link:hover {
+    background-color: rgba(110, 110, 110, 0.1);
+    padding: 0px 1%;
+    border-radius: 2em;
+    width: 40%;
 }
 
 .nav-bar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    height: 11vh;
+    width: 100%;
 }
 
 #start-your-search {
@@ -46,6 +77,16 @@
 
 #airbnb-logo {
     fill: rgba(255, 0, 55, 0.904);
+    cursor: pointer;
+    padding-left: 40%;
+}
+
+.far-right-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+    width: 300px;
 }
 
 //future reference

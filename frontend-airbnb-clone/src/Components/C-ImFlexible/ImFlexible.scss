@@ -1,0 +1,33 @@
+.airbnb-flexible {
+    background-image: url(../../Images/bubble.jpeg);
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-top: 20px;
+    height: 100vh;
+}
+
+.airbnb-flexible div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.airbnb-flexible div h1 {
+    color: white;
+    font-size: 6.5vh;
+    font-weight: 500;
+}
+
+#im-flexible {
+    height: 7vh;
+    width: 11vw;
+    border-radius: 2em;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color:  -webkit-linear-gradient(rgb(95, 17, 241),rgb(200, 51, 230));
+}

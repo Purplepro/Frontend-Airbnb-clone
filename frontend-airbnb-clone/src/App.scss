@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 
@@ -10,11 +11,16 @@
   padding: 0px 5px 0px 20px;
   width: 290px;
   height: 48px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border:1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, .10);
+  border: 1px solid rgb(197, 197, 197);
   border-radius: 2rem;
   overflow: hidden;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.SearchBar:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
 }
 
 .search-icon {
@@ -25,6 +31,18 @@
   font-size: 2vh;
   // margin-left: 130px;
   margin-top: 4px;
+}
+
+.top-section {
+  background-color: black;
+  height: 160vh;
+  padding: 70px 60px 40px 60px;
+  overflow: hidden;
+}
+
+.second-section {
+  background-color: white;
+  height: 200vh;
 }
 
 

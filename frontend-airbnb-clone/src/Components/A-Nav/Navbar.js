@@ -20,13 +20,16 @@ function Navbar() {
             {/* <div><a href="#">Places to go</a></div>
             <div><a href="#">Experiences</a></div>
             <div><a href="#">Online Experiences</a></div> */}
+
+            <div className="far-right-items">
             <div id="become-host-link"><a href="#"><h4>Become a host</h4></a></div>
 
-            <div><BiGlobe id="globe-icon"/></div>
+            <div id="globe-container"><BiGlobe id="globe-icon"/></div>
 
             <div id="menu-button-div">
                 <div><IoMdMenu id="hamburger-menu"/></div> 
-                <div><img src={ProfileIcon} alt="shadow avatar inside of circle" id="profile-icon" height="100px" width="100px"/></div>
+                <div><img src={ProfileIcon} alt="shadow avatar inside of circle" id="profile-icon" height="90px" width="90px"/></div>
+            </div>
             </div>
             
             

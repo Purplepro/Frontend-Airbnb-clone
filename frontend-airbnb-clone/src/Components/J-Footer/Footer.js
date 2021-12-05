@@ -1,10 +1,6 @@
-import './Nav.scss';
-
-
-
 import React from 'react'
 
-function NavLinks() {
+function Footer() {
     return (
         <div>
             
@@ -12,4 +8,4 @@ function NavLinks() {
     )
 }
 
-export default NavLinks
+export default Footer

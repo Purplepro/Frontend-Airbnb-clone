@@ -1,0 +1,52 @@
+
+#menu-button-div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 2rem;
+    width: 4.5rem;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 5px 5px 5px 12px;
+    border-radius: 2rem;
+    // overflow: hidden;
+}
+
+#profile-icon {
+    position: relative;
+    right: 17px;
+    top: 6px;
+    margin: auto;
+}
+
+#hamburger-menu {
+    font-size: 22px;
+    position: relative;
+    right: inherit;
+    top: 1px;
+}
+
+#globe-icon {
+    font-size: 1.3em;
+}
+
+#become-host-link a {
+ text-decoration: none;
+ color: black;
+ font-weight: 450;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+#start-your-search {
+    font-weight: 450;
+}
+
+#airbnb-logo {
+    fill: rgba(255, 0, 55, 0.904);
+}
+
+//future reference
+//change search bar at 744px X 788px viewport size

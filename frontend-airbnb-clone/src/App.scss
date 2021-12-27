@@ -9,14 +9,16 @@
   align-items: center;
   gap: 127px;
   padding: 0px 5px 0px 20px;
-  width: 290px;
-  height: 48px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, .10);
-  border: 1px solid rgb(197, 197, 197);
+  width: 270px;
+  height: 45px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
+  border: 1px solid rgb(224, 224, 224);
   border-radius: 2rem;
   overflow: hidden;
   cursor: pointer;
   transition: all 0.2s ease;
+  margin-left: 14%;
 }
 
 .SearchBar:hover {
@@ -29,13 +31,12 @@
   border-radius: 50%;
   color: white;
   font-size: 2vh;
-  // margin-left: 130px;
   margin-top: 4px;
 }
 
 .top-section {
   background-color: black;
-  height: 160vh;
+  height: 170vh;
   padding: 70px 60px 40px 60px;
   overflow: hidden;
 }
@@ -60,5 +61,10 @@
 .nav-bar {
   display: flex;
   align-items: center;
-  
+  position: fixed;
+  background-color: white;
+  box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.0), 0 0px 15px 0 rgba(0, 0, 0, 0.10);
+  transform: translateY(2);
+  transition: 0.2s ease ;
 }
+

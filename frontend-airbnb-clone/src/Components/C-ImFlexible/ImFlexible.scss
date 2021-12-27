@@ -5,8 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
-    margin-top: 20px;
-    height: 100vh;
+    margin-top: 100px;
+    height: 90vh;
 }
 
 .airbnb-flexible div {
@@ -23,11 +23,33 @@
 }
 
 #im-flexible {
+    font-weight: bold;
+    font-size: 20px;
+    background-image: -webkit-linear-gradient(70deg, rgb(62, 13, 153),rgb(123, 25, 143), rgb(204, 21, 189));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+#flexible-button {
     height: 7vh;
     width: 11vw;
     border-radius: 2em;
-    font-weight: bold;
-    font-size: 18px;
     border: none;
-    color:  -webkit-linear-gradient(rgb(95, 17, 241),rgb(200, 51, 230));
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#flexible-button:hover {
+    background-color: whitesmoke;
+}
+
+
+
+//rgb(95, 17, 241),rgb(200, 51, 230)
+
+.imflexible-container {
+    margin-top: 30% !important;
 }

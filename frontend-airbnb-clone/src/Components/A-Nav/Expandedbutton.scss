@@ -1,0 +1,141 @@
+.search-button-expanded {
+    background-color: white;
+    width: 60vw;
+    height: 9vh;
+    border: .5px solid rgb(224, 223, 223);
+    margin: 50vh auto;
+    border-radius: 3em;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 0;
+}
+
+.location-container {
+    height: 6.4vh;
+    width: 17vw;
+    padding: 10px;
+    border-radius: 3em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+.location-container:hover {
+    background-color: rgb(243, 243, 243);
+}
+.location-container label {
+    float: left;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+    // margin-right: 115px;
+}
+
+.location-container input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.9vh;
+    width: 13vw;
+    // margin-left: 20px ;
+}
+
+.check-in-container {
+    height: 6.4vh;
+    width: 12vw;
+    transition: 0.1s ease;
+    padding: 10px;
+    border-radius: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.check-in-container:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.check-in-container label {
+    float: left;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.check-in-container input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.9vh;
+    width: 13vw;
+}
+
+
+.check-out-container {
+    height: 6.4vh;
+    width: 12vw;
+    transition: 0.1s ease;
+    padding: 10px;
+    border-radius: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.check-out-container:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.check-out-container label {
+    float: left;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.check-out-container input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.9vh;
+    width: 13vw;
+}
+
+.guests-container {
+    height: 6.4vh;
+    width: 15vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    transition: 0.1s ease;
+    cursor: pointer;
+    border-radius: 3em;
+}
+
+.guests-container:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+#guest-label-and-input {
+    display: flex;
+    flex-direction: column;
+}
+
+#guest-label-and-input label {
+    float: left;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+#guest-label-and-input input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.9vh;
+    width: 13vw;
+}
+

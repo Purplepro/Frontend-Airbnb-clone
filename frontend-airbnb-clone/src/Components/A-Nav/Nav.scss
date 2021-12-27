@@ -5,12 +5,14 @@
     flex-direction: row;
     height: 1.8rem;
     width: 3.5rem;
-    border: 1px solid rgb(197, 197, 197);
+    border: 1px solid rgb(224, 223, 223);
     padding: 5px 5px 5px 12px;
     border-radius: 1.8rem;
     padding-right: -30%;
     transition: all 0.2s ease;
+    background-color: white;
     // overflow: hidden;
+    cursor: pointer;
 }
 
 #menu-button-div:hover {
@@ -31,52 +33,98 @@
     top: 1px;
 }
 
-#globe-icon {
-    font-size: 1.3em;
+.globe-icon {
+    font-size: 1.2em;
     transition: 0.2s ease;
+}
+.globe-icon2 {
+    font-size: 1.2em;
+    transition: 0.2s ease;
+    fill: white;
 }
 
 #globe-container:hover {
-    background-color: rgba(110, 110, 110, 0.1);
-    border-radius: 200%;
-    padding: 15px;
-    margin: auto;
+    background-color: rgba(240, 240, 240, 0.397);
+    border-radius: 50%;
+    padding: 10px;
+    height: 15px;
+    width: 15px;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
 
-#become-host-link a {
+
+.become-host-link a {
  text-decoration: none;
  color: black;
- font-weight: 450;
- font-size: 0.8rem;
+//  font-size: 0.8rem;
+transition: 0.2s ease;
+}
+.become-host-link2 a {
+ text-decoration: none;
+ color: white;
+//  font-size: 0.8rem;
+ transition: 0.2s ease;
 }
 
 #become-host-link {
-    behavior: smooth;
+   behavior: smooth;
+}
+#become-host-h1 {
+   font-weight:550;
+   font-size: 1.7vh;
+   transition: 0.1s;
 }
 
-#become-host-link:hover {
-    background-color: rgba(110, 110, 110, 0.1);
-    padding: 0px 1%;
+#become-host-h1:hover {
+    background-color: rgba(212, 212, 212, 0.1);
+    padding: 13px 15px;
     border-radius: 2em;
-    width: 40%;
 }
+#become-host-h1:hover {
+    background-color: rgba(212, 212, 212, 0.158);
+    padding: 13px 15px;
+    border-radius: 2em;
+}
+
+
 
 .nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px;
-    height: 11vh;
+    height: 10vh;
     width: 100%;
 }
 
+.nav-bar2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color:  black;
+    box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.0), 0 0px 15px 0 rgba(0, 0, 0, 0.10);
+    transform: translateY(0);
+    transition: 0.2s ease;
+    width: 100%;
+    padding: 0px;
+    height: 10vh;
+  }
+
 #start-your-search {
-    font-weight: 450;
+    font-weight: 500;
+    font-size: 1.7vh;
 }
 
-#airbnb-logo {
+.airbnb-logo {
     fill: rgba(255, 0, 55, 0.904);
+    cursor: pointer;
+    padding-left: 40%;
+}
+.airbnb-logo2 {
+    fill: white;
     cursor: pointer;
     padding-left: 40%;
 }
@@ -87,6 +135,12 @@
     justify-content: center;
     gap: 8%;
     width: 300px;
+    padding: 0;
+    margin-right: 2%;
+}
+
+.search-button-expanded {
+    
 }
 
 //future reference

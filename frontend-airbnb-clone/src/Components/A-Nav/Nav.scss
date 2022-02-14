@@ -97,6 +97,7 @@ transition: 0.2s ease;
     padding: 0px;
     height: 10vh;
     width: 100%;
+    z-index: 100;
 }
 
 .nav-bar2 {
@@ -111,6 +112,7 @@ transition: 0.2s ease;
     width: 100%;
     padding: 0px;
     height: 10vh;
+    z-index: 100;
   }
 
 #start-your-search {
@@ -140,7 +142,7 @@ transition: 0.2s ease;
 }
 
 .search-button-expanded {
-    
+
 }
 
 //future reference

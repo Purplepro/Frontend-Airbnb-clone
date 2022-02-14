@@ -19,7 +19,7 @@ function Navbar() {
 
     
 
-    const listenToScrollEvent = (event) => {
+    const listenToScrollEvent = () => {
         console.log(window.scrollY);
             if(window.scrollY === 0) {
                 
@@ -52,7 +52,7 @@ function Navbar() {
 
 
 
-    const click = () => console.log('clicked')
+    
 
     return (
         <div className={navbarColor}>

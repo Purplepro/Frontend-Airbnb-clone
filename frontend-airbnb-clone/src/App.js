@@ -4,6 +4,9 @@ import './Components/A-Nav/Nav.scss';
 import Navbar from './Components/A-Nav/Navbar';
 import ImFlexibleComp from './Components/C-ImFlexible/PictureComp';
 import ExpandedSearchButton from './Components/A-Nav/ExpandedSearchButton';
+import GiftCard from './Components/F-AirbnbGiftCards/GiftCard';
+import Inspiration from './Components/E-Inpiration/Inspiration';
+import Experiences from './Components/G-Experiences/Experiences';
 
 
 function App() {
@@ -19,8 +22,12 @@ function App() {
       <div className="top-section">
         <ImFlexibleComp/>
       </div>
-      <div className="second-section"></div>
-      <ExpandedSearchButton/>
+      <GiftCard/>
+      <div className="second-section">
+        <Inspiration/>
+        <Experiences/>
+      </div>
+      {/* <ExpandedSearchButton/> */}
     </div>
   );
 }

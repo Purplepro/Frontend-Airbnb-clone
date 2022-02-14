@@ -23,6 +23,20 @@
     transition: 0.1s ease;
     cursor: pointer;
 }
+
+.location-container2 {
+    height: 6.5vh;
+    width: 17vw;
+    padding: 10px;
+    border-radius: 3em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: 0.1s ease;
+    box-shadow: 4 4px 4px 0 rgba(0, 0, 0, 0.2), 4 4px 15px 0 rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+}
 .location-container:hover {
     background-color: rgb(243, 243, 243);
 }

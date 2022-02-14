@@ -1,0 +1,72 @@
+.experiences-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20vh;
+    gap: 6vh
+}
+
+
+.things-to-do-cards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+}
+
+.div-1, .div-2 {
+    background-color: lightcoral;
+    height: 80vh;
+    width: 43.8vw;
+    border-radius: .7em;
+}
+
+.hosting-questions-card {
+    height: 80vh;
+    width: 89.5vw;
+    background-color: lightcoral;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: .7em;
+}
+
+.things-to-do-quote {
+    color: white;
+    font-size: 7vh;
+    font-weight: 450;
+}
+.things-to-do-quote span {
+    display: block;
+}
+
+
+.white-buttons {
+    border: none;
+    padding: 15px 20px ;
+    color: black;
+    background-color: white;
+    border-radius: .5em;
+    font-size: 2.3vh;
+    cursor: pointer;
+    font-weight: 500;
+} 
+
+.white-buttons:hover {
+    background-color: whitesmoke;
+}
+
+.hosting-questions-card h1 {
+    color: white;
+    font-size: 12vh;
+    font-weight: 550;
+}
+
+.hosting-questions-card span {
+    display: flex;
+    flex-direction: column;
+}
+.hosting-questions-card div {
+    float: left;
+    padding-left: 5vw;
+}
+

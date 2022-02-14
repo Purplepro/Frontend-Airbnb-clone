@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#inspiration-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 15px;
+}
+
+#inspiration-container div h1 {
+    font-family: Roboto;
+    font-size: 3vw;
+    float: left;
+    margin-left: 7.5%;
+}
+
+.nearest-city-cards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin: auto;
+}
+
+.nearest-city-cards {
+    background-color: lightcoral;
+    height: 50vh;
+    width: 21vw;
+    border-radius: .7em;
+}

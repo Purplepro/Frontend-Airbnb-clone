@@ -1,35 +1,27 @@
 import React from 'react';
 import './Expandedbutton.scss';
+import Location from './togglebuttons/Location';
+import CheckIn from './togglebuttons/CheckIn';
+import CheckOut from './togglebuttons/CheckOut';
+import Guests from './togglebuttons/Guests';
 
-function ExpandedSearchButton() {
+function ExpandedSearchButton({ locationOpen }) {
     return (
         <div className="search-button-expanded">
-            <div className="location-container">
-                <label>Location</label>
-                <input placeholder='Where are you going?'/>
-            </div>
-           
-            <div className="check-in-container">
-                <label>Check in</label>
-                <input placeholder='Add dates'/>
-            </div>
-            
-            <div className="check-out-container">
-                <label>Check out</label>
-                <input placeholder='Add dates'/>
-            </div>
-           
-            <div className="guests-container">
-                <div id="guest-label-and-input">
-                <label>Guests</label>
-                <input placeholder='Add guests'/>
+            <div>
+            <Location toggle={!locationOpen} />
+            {/* {locationOpen && (
+                <div className='toggled-location-div'>
+                    <div>
+                        <div><h1>Im Flexible</h1></div>   
+                        <div>
                 </div>
-
-                <div>
-                    {/* search icon goes here */}
-                </div>
-
+            )} */}
             </div>
+            <CheckIn/>
+            <CheckOut/>
+            <Guests/>
+
         </div>
     )
 }
